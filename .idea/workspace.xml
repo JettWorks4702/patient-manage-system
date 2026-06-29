@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc7fa9d4-cc32-4033-aeae-06948b99c36e" name="Changes" comment="" />
+    <list default="true" id="cc7fa9d4-cc32-4033-aeae-06948b99c36e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/pm/apigateway/exception/JwtValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/pm/apigateway/filter/JwtValidationGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-requests/auth-service/validate.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration-tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration-tests/src/test/java/AuthIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration-tests/src/test/java/PatientIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/pm/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/test/java/com/pm/authservice/AuthServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/test/java/com/pm/patientservice/PatientServiceApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +68,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="3ExJ4HVGhQTvTaBOmm4QF9Z0dmx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,6 +81,7 @@
     "Docker.analytics-service.executor": "Run",
     "Docker.api-gateway.executor": "Run",
     "Docker.auth-service-db.executor": "Run",
+    "Docker.auth-service.executor": "Run",
     "Docker.billing-service.executor": "Run",
     "Docker.kafka.executor": "Run",
     "Docker.patient-service-db.executor": "Run",
@@ -65,6 +90,7 @@
     "HTTP Request.create-patient | Creates a new patient entity.executor": "Run",
     "HTTP Request.get-patients | GET request to get all patients.executor": "Run",
     "Maven.analytics-service [compile].executor": "Run",
+    "Maven.api-gateway [compile].executor": "Run",
     "Maven.billing-service [compile].executor": "Run",
     "Maven.billing-service [install].executor": "Run",
     "Maven.patient-service [compile].executor": "Run",
@@ -78,16 +104,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.BillingServiceApplication.executor": "Run",
     "Spring Boot.PatientServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Major Projects/Java Project/patient-management-project-springboot/patient-management/patient-service/src/main",
+    "last_opened_file_path": "D:/Major Projects/Java Project/patient-management-project-springboot/patient-management/auth-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Major Projects/Java Project/patient-management-project-springboot/patient-management/integration-tests/src/main/java/com/pm/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -103,6 +131,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Major Projects\Java Project\patient-management-project-springboot\patient-management\auth-service" />
       <recent name="D:\Major Projects\Java Project\patient-management-project-springboot\patient-management\patient-service\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -133,7 +162,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.auth-service-db">
+  <component name="RunManager" selected="Docker.patient-service">
     <configuration name="PatientServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pm.patientservice.PatientServiceApplication" />
       <module name="patient-management" />
@@ -166,6 +195,13 @@
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.authservice.AuthServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,6 +253,14 @@
         <settings>
           <option name="imageTag" value="api-gateway:latest" />
           <option name="containerName" value="api-gateway" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="AUTH_SERVICE_URL" />
+                <option name="value" value="http://auth-service:4005" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
           <option name="portBindings">
             <list>
               <DockerPortBindingImpl>
@@ -269,6 +313,45 @@
               </DockerVolumeBindingImpl>
             </list>
           </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="auth-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="auth-service:latest" />
+          <option name="containerName" value="auth-service" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="JWT_SECRET" />
+                <option name="value" value="DLKSDHFVNPHgfjnf=vvalkjnvbnvkjanv/" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_PASSWORD" />
+                <option name="value" value="password" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_URL" />
+                <option name="value" value="jdbc:postgresql://auth-service-db:5432/db" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_USERNAME" />
+                <option name="value" value="admin_user" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_JPA_HIBERNATE_DDL_AUTO" />
+                <option name="value" value="update" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_SQL_INIT_MODE" />
+                <option name="value" value="always" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="auth-service/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
@@ -444,6 +527,7 @@
       <item itemvalue="Docker.billing-service" />
       <item itemvalue="Docker.patient-service-db" />
       <item itemvalue="Docker.auth-service-db" />
+      <item itemvalue="Docker.auth-service" />
       <item itemvalue="Docker.kafka" />
       <item itemvalue="Docker.patient-service" />
       <item itemvalue="Docker.analytics-service" />
@@ -451,6 +535,7 @@
       <item itemvalue="HTTP Request.create-billing-account | #1" />
       <item itemvalue="HTTP Request.create-patient | Creates a new patient entity" />
       <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
+      <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.AnalyticsServiceApplication" />
       <item itemvalue="Spring Boot.BillingServiceApplication" />
@@ -485,7 +570,7 @@
       <workItem from="1781429942734" duration="2428000" />
       <workItem from="1781434678922" duration="17372000" />
       <workItem from="1781731294276" duration="2527000" />
-      <workItem from="1782156448435" duration="7493000" />
+      <workItem from="1782156448435" duration="22136000" />
     </task>
     <servers />
   </component>
@@ -494,13 +579,29 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka_2.13" />
     <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
     <option featureType="dependencySupport" implementationName="java:io.grpc:grpc-api" />
-    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
-    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
-    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/integration-tests/src/main/java/com/pm/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
