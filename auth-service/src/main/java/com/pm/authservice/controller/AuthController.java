@@ -19,7 +19,7 @@ public class AuthController {
         this.authService = authService;
     }
 
-    @Operation(summary = "Generate token on user login")
+    @Operation(summary = "Generate token by user login")
     @PostMapping("/login")
     public ResponseEntity<LoginResponseDTO> login(@RequestBody LoginRequestDTO loginRequestDTO){
         Optional<String> tokenOptional = authService.authenticate(loginRequestDTO);
