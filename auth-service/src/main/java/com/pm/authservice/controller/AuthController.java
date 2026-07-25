@@ -32,7 +32,7 @@ public class AuthController {
         return ResponseEntity.ok(new LoginResponseDTO(token));
     }
 
-    @Operation(summary = "Validate Token")
+    @Operation(summary = "Token validated")
     @GetMapping("/validate")
     public ResponseEntity<Void> validateToken(@RequestHeader("Authorization") String authHeader){
 
