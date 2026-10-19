@@ -19,8 +19,8 @@ public class BillingServiceGrpcClient {
     //localhost:9001/BillingService/CreatePatientAccount
     //aws.grpc.123123/BillinService/CreatePatientAccount
     public BillingServiceGrpcClient(
-            @Value("${billing.service.address.localhost}") String serverAddress,
-            @Value("${biiling.service.grpc.port:9001}") int serverPort
+            @Value("${billing.service.address:localhost}") String serverAddress,
+            @Value("${billing.service.grpc.port:9001}") int serverPort
     )
     {
         log.info("Connecting to Billing Service GRPC service at {}:{}", serverAddress, serverPort);
@@ -33,7 +33,7 @@ public class BillingServiceGrpcClient {
     }
 
     public BillingResponse createBillingAccount(String patientId, String name, String email){
-        BillingRequest request = BillingRequest.newBuilder().setPatientId(patientId).setEmail(email).build();
+        BillingRequest request = BillingRequest.newBuilder().setPatientId(patientId).setName(name).setEmail(email).build();
         BillingResponse response = blockingStub.createBillingAccount(request);
         log.info("Recieved response from billing servcie via GRPC : {}", response);
         return response;
